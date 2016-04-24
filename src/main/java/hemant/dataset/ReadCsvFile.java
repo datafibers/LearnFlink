@@ -17,7 +17,7 @@ F:\LearnFlink\01.txt
 01,hemant,29,it,90000
 02,kumar,24,hr,10000
 03,dindi,21,sales,80000
-04,sree,23,it,50000
+04,surya,23,it,50000
  */
         DataSet<Tuple5<Integer, String, Integer, String, Integer>> text = env.readCsvFile("F:\\LearnFlink\\01.txt")
                     .fieldDelimiter(",") //Specifify the delimeter
