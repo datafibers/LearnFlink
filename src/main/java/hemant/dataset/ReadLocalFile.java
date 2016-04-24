@@ -12,6 +12,8 @@ public class ReadLocalFile {
         DataSet<String> text = env.readTextFile("F:\\LearnFlink\\01.txt");
         try {
             text.print();
-        } catch (Exception e){}
+        } catch (Exception e){
+            System.out.println("Error while printing the output..!");
+        }
     }
 }
