@@ -2,7 +2,6 @@ package hemant.datastream;
 
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
-import org.apache.flink.streaming.api.functions.source.FileMonitoringFunction;
 
 /**
  * Created by hemantd on 27/04/2016.
